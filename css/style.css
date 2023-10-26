@@ -6,16 +6,25 @@
 header{
     text-align: center;
     width: 100%;
+    position: sticky;
     
     background-color: black;
     color: white;
+}
+main{
+    height: 1000px;
 }
 
 @media only screen and (max-width:480px) {
     .principal, .secundario{
         padding: 10px;
     }
-    
+    .ronaldinho{
+        background-image: url(/img/ronaldinho.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 30vw;
+    }
     main section{
         border-top: solid;
     }
@@ -30,13 +39,14 @@ header{
         background-size: 100%;
     }
     .top nav ul li{
-        width: 20%;
+        width: 100%;
         margin: auto;
         list-style: none;
         border: solid;
-        border-radius: 20px;
         background-color: coral;
         color: black;
+        position: sticky;
+        top: 0;
     }
 }
 
@@ -45,6 +55,12 @@ header{
         height: 50px;
         position: sticky;
         top: 0;
+    }
+    .ronaldinho{
+        background-image: url(/img/ronaldinho.jpg);
+        background-size: 100%;
+        width: 100%;
+        height: 30vw;
     }
     .top nav ul{
         display: flex;
@@ -63,7 +79,7 @@ header{
         color: rgb(255, 255, 255);
         background-color: black;
         width: 100%;
-        min-width: 550px;
+       
         display: flex;
     }
     
