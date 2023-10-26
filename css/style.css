@@ -6,6 +6,8 @@
 header{
     text-align: center;
     width: 100%;
+    padding: 0;
+    margin: 0;
     position: sticky;
     background-color: black;
     color: white;
@@ -62,17 +64,17 @@ main{
         height: 30vw;
     }
     .top nav ul{
-        width: 100%;
+       
         display: flex;
-        text-align: center;
         background-color: black;
 
     }
     .top nav ul li{
         width: 100%;
         margin: auto;
+        text-align: center;
         list-style: none;
-
+        
         border: solid;
         border-radius: 10px;
         background-color: coral;
